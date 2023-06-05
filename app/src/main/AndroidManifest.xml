@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PetCare"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin.AdminActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.AddMedicineActivity"
+            android:exported="false" />
+
+
+        <activity
+            android:name=".admin.AddLabTestActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.AddDoctorActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".admin.AddArticleActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_article"
+            android:theme="@style/Theme.PetCare.NoActionBar" />
+        <activity
+            android:name=".labtest.TestDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".labtest.LabTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".articles.ArticleDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".articles.ArticlesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".medicine.MedicineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".doctor.FindDocActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
