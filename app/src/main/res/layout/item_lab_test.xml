@@ -6,7 +6,8 @@
     android:layout_height="wrap_content"
     android:layout_marginStart="16dp"
     android:layout_marginEnd="16dp"
-    android:layout_marginBottom="20dp"
+    android:layout_marginBottom="18dp"
+    android:layout_marginTop="18dp"
     android:paddingBottom="16dp"
     app:cardCornerRadius="16dp"
     android:id="@+id/cwLabCard"
@@ -27,18 +28,25 @@
                 android:id="@+id/txtTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textStyle="bold" />
+                android:textSize="18sp"
+                android:text="fjdhsgj"
+                android:textColor="#474646"
+                android:textStyle="bold"/>
 
             <TextView
                 android:id="@+id/txtDate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="dsahgkjahgs"
+                android:layout_marginTop="4dp"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/txtShortDesc"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="hsjhgfdgkjdslhagljkhdfjgldfjkşjagsfşdkhgdjkflgjhsaşkhlhjkdffbjdasgm"/>
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
