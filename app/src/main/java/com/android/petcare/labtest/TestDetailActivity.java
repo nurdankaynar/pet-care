@@ -24,7 +24,7 @@ public class TestDetailActivity extends AppCompatActivity {
         db.labTestDao().getLabTest(articleId).observe(TestDetailActivity.this, test -> {
             binding.testTitle.setText(test.getTitle().toString());
             binding.testDate.setText(test.getDate());
-            binding.detailDesc.setText(test.getShortDesc() + test.getDesc());
+            binding.detailDesc.setText(test.getDesc());
         });
     }
 }

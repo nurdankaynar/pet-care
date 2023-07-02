@@ -20,7 +20,7 @@
         <ImageView
             android:id="@+id/ivImage"
             android:layout_width="match_parent"
-            android:layout_height="350dp" />
+            android:layout_height="wrap_content" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -32,6 +32,7 @@
                 android:id="@+id/txtTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18sp"
                 android:textStyle="bold" />
 
             <TextView
